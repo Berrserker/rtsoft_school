@@ -7,7 +7,7 @@ MODULE_AUTHOR(“Yago Sevatarion”);
 MODULE_DESCRIPTION(“A simple example Linux modul.”);
 MODULE_VERSION(“0.01”);
 
-int __init lkm_example_init(void) {
+static int __init lkm_example_init(void) {
   printk(KERN_INFO “Hello, World!\n”);
   return 0;
 }
