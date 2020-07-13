@@ -1,7 +1,7 @@
 # rtsoft_school
  hw1 - cmake + driver
  
- docker - docker img
+ docker - docker img + dockerfile
  
  AInet - cv person finder via flask: localhost:5000/web - start, localhost:5000/stop - stop. (python)
  
